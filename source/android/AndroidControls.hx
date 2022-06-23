@@ -152,7 +152,7 @@ class AndroidControls extends FlxSpriteGroup
 			case 5:
 				KEYBOARD;
 			default: 
-				VIRTUALPAD_RIGHT;
+				HITBOX;
 		}
 	}
 
