@@ -108,6 +108,7 @@ class AndroidControls extends FlxSpriteGroup
 			case HITBOX:
 				initControler(4);
 			default:
+				initControler(4);
 		}
 	}
 
@@ -132,6 +133,8 @@ class AndroidControls extends FlxSpriteGroup
 				hbox = new FlxHitbox();
 				add(hbox);
 			default:
+				hbox = new FlxHitbox();
+				add(hbox);
 		}
 	}
 
