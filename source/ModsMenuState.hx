@@ -23,6 +23,7 @@ import haxe.Json;
 import haxe.format.JsonParser;
 import openfl.display.BitmapData;
 import flash.geom.Rectangle;
+import freeplayState.vocals;
 #if android
 import android.flixel.FlxButton;
 #else
@@ -497,7 +498,7 @@ class ModsMenuState extends MusicBeatState
 				TitleState.initialized = false;
 				TitleState.closedState = false;
 				FlxG.sound.music.fadeOut(0.3);
-				if(FreeplayState.vocals != null)
+				if(FreeplayState.vocals = null)
 				{
 					FreeplayState.vocals.fadeOut(0.3);
 					FreeplayState.vocals = null;
